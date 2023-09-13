@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    box-shadow: 5px 5px 5px red;
+}
+
+.h1{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    padding-left: 100px;
+    
+}
+.btn button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+    left: 300px;
+    top: -60px;
+}
+.inp{
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    left: 600px;
+    top: -110px;
+    background-color: rgba(66, 64, 64, 0.157)  ;
+    padding-left: 70px;
+    font-size: 20px;
+}
+.user-bar1{
+    width: 160px;
+    position: relative;
+    left: 700px;
+    top: -105px;
+}
+.korzina{
+    width: 35px;
+    position: relative;
+    left: 750px;
+    top: -100px;
+}
+.number{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: red;
+    border: 1px solid;
+    position: relative;
+    left: 100px;
+    font-family: cursive;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 1745px;
+    top: -70px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 350px;
+    background: #FFF;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.11);
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0px 5px 5px 5px red;
+}
+.img1{
+    width: 300px;
+}
+.tc {
+    color: var(--text-color, #414141);
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 5px 0;
+}
+
+.pc {
+    color: var(--text-color, #414141);
+    font-size: 13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px 0;
+}
+
+.cn {
+    color: var(--text-color, #414141);
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin: 5px 0;
+}
+.bd{
+    display: flex;
+    justify-content: space-between  ;
+}
+.plus {
+    width: 70%;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: rgb(0, 119, 255);
+    padding: 12px 50px;
+    border: none;
+    cursor: pointer;
+}
+.minus {
+    width: 25%;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+}
